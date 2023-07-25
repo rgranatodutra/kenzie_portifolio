@@ -1,21 +1,21 @@
 import { styled } from "@/styles/stitches.config";
 import { Flex } from "@/styles/Global";
 import { Button } from "@/styles/Buttons";
-import { css } from "@stitches/react";
-
-import meIlustration from "@/public/static/img/background/me-ilustration.svg";
 import backgroundImg from "@/public/static/img/background/header-bg.svg";
+import galaxyBg from "@/public/static/img/background/galaxy_wallpaper.jpg";
 
 import dots from "@/public/static/img/background/dots.svg";
 
 export const Header = styled("header", {
-  backgroundColor: "$grey1",
+  backgroundColor: "$grey1o",
   padding: "12rem 0 8rem 0",
-  backgroundImage: `url(${backgroundImg})`,
+  backgroundImage: `url(${galaxyBg})`,
   backgroundRepeat: "no-repeat",
   backgroundPosition: "right",
   backgroundAttachment: "fixed",
   borderBottom: "2px solid $grey5",
+  backdropFilter: "blur(5px)",
+  backgroundBlendMode: "darken",
   "@tablet": {
     backgroundPosition: "right -10% center",
   },

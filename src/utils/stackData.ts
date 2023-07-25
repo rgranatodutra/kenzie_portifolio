@@ -9,32 +9,19 @@ import {
   FaNode,
   FaReact,
 } from "react-icons/fa";
+import { SiNestjs, SiDjango, SiCsharp } from "react-icons/si";
 
 export const stackData = [
-  {
-    title: "HTML",
-    img: FaHtml5,
-  },
-  {
-    title: "CSS",
-    img: FaCss3Alt,
-  },
-  {
-    title: "JS",
-    img: FaJs,
-  },
+  { title: "HTML", img: FaHtml5 },
+  { title: "CSS", img: FaCss3Alt },
+  { title: "JavaScript", img: FaJs },
   { title: "TypeScript", img: SiTypescript },
-  {
-    title: "Node JS",
-    img: FaNode,
-  },
-  {
-    title: "React",
-    img: FaReact,
-  },
+  { title: "Node.js", img: FaNode },
+  { title: "Nest.js", img: SiNestjs },
+  { title: "React", img: FaReact },
   { title: "Next.js", img: TbBrandNextjs },
-  { title: "Docker", img: FaDocker },
   { title: "PostgreSQL", img: SiPostgresql },
   { title: "Git", img: FaGit },
   { title: "Python", img: FaPython },
+  { title: "Django", img: SiDjango },
 ];
