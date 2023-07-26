@@ -16,12 +16,8 @@ export const Header = styled("header", {
   borderBottom: "2px solid $grey5",
   backdropFilter: "blur(5px)",
   backgroundBlendMode: "darken",
-  "@tablet": {
-    backgroundPosition: "right -10% center",
-  },
   "@mobile": {
     padding: "9rem 0 6rem 0",
-    backgroundImage: `none`,
   },
   "@mobileLittle": {
     padding: "9rem 0 0 0",
